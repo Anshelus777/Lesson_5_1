@@ -1,0 +1,513 @@
+/*=============================================FONTS=============================================*/
+/*=============================================FONTS=============================================*/
+/*=============================================FONTS=============================================*/
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,700&display=swap");
+
+/*=========================================Zeroing Styles=========================================*/
+/*=========================================Zeroing Styles=========================================*/
+/*=========================================Zeroing Styles=========================================*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+}
+/*=========================================CODE=========================================*/
+/*=========================================CODE=========================================*/
+/*=========================================CODE=========================================*/
+/*=====================BODY=====================*/
+body {
+	line-height: 1;
+	color: #000;
+	font-family: lora;
+}
+/*=====================HEADER=====================*/
+nav.menu ul.menu-list {
+	list-style-type: disc;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	font-size: 80px;
+	font-family: lato;
+	line-height: 1;
+	color: black;
+}
+
+ul.menu-list li {
+	list-style: disc inside;
+	color: rgb(194, 135, 135);
+	font-style: italic;
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+ul.menu-list a {
+	color: rgb(241, 137, 137);
+	text-shadow: 10px 1px 10px rgb(255, 252, 80);
+}
+/*=====================MAIN=====================*/
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+h1,
+h2 {
+	display: block;
+	font-size: 130px;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+	color: rgb(24, 53, 24);
+	text-shadow: -10px 1px 0px rgb(80, 255, 80);
+}
+
+#c {
+	margin: 500px 500px 500px 500px;
+	font-size: 130px;
+	color: red;
+	background-color: turquoise;
+	font-family: comfortaa;
+}
+
+.block {
+	font-family: "comfortaa";
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+	font-size: 60px;
+	margin: 50px 0px 50px 0px;
+}
+
+.string {
+	font-family: "lato";
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+	font-size: 80px;
+}
+
+#q {
+	color: blueviolet;
+	background-color: violet;
+	max-width: 350px;
+	overflow: visible;
+}
+
+#r {
+	color: darkcyan;
+	background-color: darkslategray;
+	overflow: hidden;
+	max-width: 800px;
+	max-height: 300px;
+	font-size: 40px;
+}
+
+#t {
+	color: darkslategray;
+	background-color: darkcyan;
+	overflow: scroll /*auto*/;
+	max-width: 800px;
+	max-height: 300px;
+}
+
+#z {
+	width: 10000px;
+	background-color: blue;
+	color: red;
+}
+
+#w {
+	background-color: black;
+	color: white;
+	min-width: 1000px;
+}
+
+#e {
+	color: chartreuse;
+	background-color: brown;
+	max-width: 1000px;
+}
+
+#y {
+	color: black;
+	background-color: red;
+	max-height: 100px;
+	overflow: scroll;
+}
+
+#u {
+	color: red;
+	background-color: rgb(0, 0, 0);
+	min-height: 100px;
+	overflow: scroll;
+}
+
+#o {
+	padding: 50px 40px 50px 80px;
+	color: yellow;
+	background-color: black;
+	width: 1000px;
+	height: auto;
+	border: 5px solid yellow;
+}
+
+#a {
+	padding: 50px 80px 60px;
+	width: 1000px;
+	height: auto;
+	color: tomato;
+	background-color: seashell;
+	border: 5px solid tomato;
+}
+
+#s {
+	padding: 50px 80px;
+	color: springgreen;
+	background-color: black;
+	border: 5px solid springgreen;
+	width: 1000px;
+	height: auto;
+}
+
+#d {
+	padding: 50px;
+	color: steelblue;
+	background-color: whitesmoke;
+	border: 5px solid steelblue;
+	width: 1000px;
+	height: auto;
+}
+
+#i {
+	margin: 50px 40px 50px 80px;
+	margin-top: 50px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	margin-left: 80px;
+	width: 1000px;
+	height: auto;
+	color: black;
+	background-color: yellow;
+	border: 5px solid black;
+}
+
+#f {
+	margin: 50px 80px 60px;
+	color: seashell;
+	background-color: tomato;
+	border: 5px solid seashell;
+	width: 1000px;
+	height: auto;
+}
+
+#g {
+	margin: 50px 80px;
+	color: black;
+	background-color: springgreen;
+	border: 5px solid black;
+	width: 1000px;
+	height: auto;
+}
+
+#p {
+	margin: 50px;
+	color: whitesmoke;
+	background-color: steelblue;
+	border: 5px solid whitesmoke;
+	width: 1000px;
+	height: auto;
+}
+
+#v {
+	color: rgb(230, 154, 14);
+	background-color: rgb(177, 222, 17);
+}
+
+#b {
+	color: blue;
+	background-color: darkgrey;
+}
+
+#n {
+	display: block;
+	color: violet;
+	background-color: wheat;
+	border: 5px solid violet;
+}
+
+#m {
+	display: block;
+	color: wheat;
+	background-color: violet;
+	border: 5px solid wheat;
+}
+
+#h {
+	color: aqua;
+	background-color: blanchedalmond;
+	border: 5px solid aqua;
+	display: inline;
+}
+
+#l {
+	display: inline-block;
+	color: palegreen;
+	background-color: papayawhip;
+	border: 5px solid palegreen;
+	margin-bottom: 100px;
+}
+
+h1#menu-link5 {
+	margin-block-start: 1.83em;
+}
+
+P {
+	font-size: 60px;
+	margin-bottom: 100px;
+}
+
+p.test1 {
+	margin-bottom: 10px;
+}
+
+p.test2 {
+	margin-bottom: 10px;
+}
+
+.test1 {
+	margin-bottom: -200px;
+	color: blueviolet;
+	font-size: 60px;
+}
+
+.test2 {
+	margin-bottom: -300px;
+	color: deeppink;
+	font-size: 60px;
+}
+
+.test3 {
+	background-color: gray;
+	border: 5px solid black;
+	width: 800px;
+	height: 500px;
+	padding-bottom: 200px;
+	margin: 200px 0px 0px 0px;
+}
+
+.test4 {
+	margin-top: -200px;
+	color: fuchsia;
+	font-size: 60px;
+}
+
+.test5 {
+	margin-top: -200px;
+	color: darkviolet;
+	font-size: 60px;
+}
+
+#j {
+	padding: 30px 50px 30px 50px;
+	color: darkorange;
+	background-color: darkslategrey;
+}
+/*=====================FOOTER=====================*/
+nav.menu2 ul.menu-list2 {
+	list-style-type: disc;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	font-size: 80px;
+	font-family: playfair Display;
+	line-height: 1;
+	color: black;
+}
+
+ul.menu-list2 li {
+	list-style: disc inside;
+	color: rgb(135, 194, 155);
+	font-style: italic;
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+ul.menu-list2 a {
+	color: rgb(89, 202, 236);
+	text-shadow: 10px 1px 10px rgb(50, 199, 204);
+}
+
+/*
+block - элемент показывается как блочный. применение этого значения для встроенных элементов, например тега <span>,
+заставляет его вести подобно блокам Ч происходит перенос строк в начале и в конце содержимого.
+
+inline - элемент отображается как встроенный. »спользование блочных тегов, таких как <div> и <p>, автоматически
+создает перенос и показывает содержимое этих тегов с новой строки. «начение inline отменяет эту особенность,
+поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.
+
+inline - block - это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы
+подобно встроенному элементу. ‘актически такой элемент по своему действию похож на встраиваемые элементы (вроде
+тега <img>). при этом его внутренняя часть форматируется как блочный элемент, а сам элемент Ч как встроенный.
+
+none - временно удаляет элемент из документа. «анимаемое им место не резервируется и веб-страница формируется
+так, словно элемента и не было.
+*/
+
+/*
+box-sizing
+применяется для изменения алгоритма расчета ширины и высоты элемента.
+—войство наследуется.
+content-box - основывается на стандартах CSS, при этом свойства width и height задают ширину и высоту контента и не
+включают в себя значения отступов, полей и границ.
+border-box - —войства width и height включают в себя значения полей и границ, но не отступов (margin). эта модель
+используется браузером Internet Exporer в режиме несовместимости.
+padding-box - —войства width и height включают в себя значения полей, но не отступов (margin) и границ (border).
+=========================================
+padding
+внутренний отступ элемента
+при указании поля в процентах, значение считается от ширины родителя элемента.
+—войство не наследуется.
+
+padding: со_всех_сторон;
+padding: сверху справа снизу слева;
+padding: сверху_снизу справа_слева;
+padding: сверху справа_слева снизу;
+
+отступ сверху и снизу не действует на срочные теги
+=========================================
+margin
+внешний отступ элемента
+при указании поля в процентах, значение считается от ширины родителя элемента.
+—войство не наследуется.
+«начение может быть как положительным, так и отрицательным числом.
+
+margin: со_всех_сторон;
+margin: сверху справа снизу слева;
+margin: сверху_снизу справа_слева;
+margin: сверху справа_слева снизу;
+
+отступ сверху и снизу не действует на срочные теги
+=========================================
+width
+”станавливает ширину блочных тегов и некоторыйх строчных (например img)
+—войство не наследуется.
+width:100px;
+width:10%;
+=========================================
+max-width
+”станавливает максимальную ширину блочных тегов и некоторыйх строчных (например img)
+=========================================
+min-width
+”станавливает минимальную ширину блочных тегов и некоторыйх строчных (например img)
+=========================================
+height:
+”станавливает высоту блочных тегов и некоторыйх строчных (например img)
+—войство не наследуется.
+height:100px;
+height:10%;
+=========================================
+min-height
+—войство не наследуется.
+=========================================
+max-height
+—войство не наследуется.
+=========================================
+overflow
+Управляет отображением содержания блочного элемента
+visible - отображается все содержание элемента, даже за пределами установленной высоты и ширины.
+hidden - отображается только область внутри элемента, остальное будет скрыто.
+scroll - всегда добавляются полосы прокрутки.
+auto - полосы прокрутки добавляются только при необходимости.
+=========================================
+display:
+ћногоцелевое свойство, которое определяет, как элемент должен быть показан в документе.
+—войство не наследуется.
+*/
+
+/*
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	*/
+/* padding: 20px 10px 30px 50px;*/
+
+/* Для всех сторон 30 */
+/* padding:  30px; */
+
+/* Сверху\снизу 50. слева\справа 30 */
+/* padding: 50px 30px; */
+
+/* Сверху 50, слева\справа 30, снизу 10 */
+/* padding: 50px 30px 10px; */
+
+/*
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	*/
+/* margin: 20px 10px 30px 50px;*/
+
+/* Для всех сторон 30 */
+/* margin: 30px; */
+
+/* Сверху\снизу 50. слева\справа 30 */
+/* margin: 50px 30px; */
+
+/* Сверху 50, слева\справа 30, снизу 10 */
+/* margin: 50px 30px 10px; */
+
+/* Больше можна, меньше нет */
+/*
+	min-width: 500px;
+	min-height: 100px;
+	*/
+/* Меньше можна, больше нет */
+/*
+	max-width: 500px;
+	max-height: 100px;
+	*/
